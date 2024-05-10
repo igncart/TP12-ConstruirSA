@@ -23,7 +23,8 @@ public class ConstruirSA {
 
                 Connection con = DriverManager.getConnection(bd, usuario, password);
                 
-             
+             /*-----------------------Dar de baja al primer empleado ingresado a la base de datos.(Usando UPDATE) ---------------------
+               
                 String sql = "UPDATE empleado "
                         + "SET estado = 0 "
                         + "WHERE id_empleado = 5";
@@ -37,19 +38,6 @@ public class ConstruirSA {
                 }
                 System.out.println(resultado);
                         
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 
                 /*-----------------------Dar de baja al primer empleado ingresado a la base de datos.(Usando DELETE) ---------------------
                
