@@ -2,6 +2,18 @@
 package construirsa;
 
 
+/*
+ALUMNOS Grupo 5:
+
+Jonathan Oviedo
+Ariel Flores
+Ignacio Arrieta
+Iara Nievas
+
+
+*/
+
+
 import java.sql.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
